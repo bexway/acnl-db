@@ -1,0 +1,31 @@
+body{
+	background-color: #bcf5bc;
+}
+
+button{
+	/*74x21*/
+}
+
+input{
+	/*173x21*/
+}
+
+.form{
+	margin: 0px 25%;
+}
+
+.form_content{
+
+}
+
+.display_box{
+	background-color: #e8fce8;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:10px;
+	border-radius:10px;
+	border: 4px dotted pink;
+	padding-left: 5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
