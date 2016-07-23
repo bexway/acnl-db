@@ -18,7 +18,7 @@
         result = db_search(name, cafe_db)
         if(result>=0){
           document.getElementById("villager_name").innerHTML="Here's " +
-            cafe_db[result]["Villager"] + "'s coffee order!:";
+            cafe_db[result]["Villager"] + "'s coffee order!";
           document.getElementById("beans_type").innerHTML=cafe_db[result]["Beans"];
           document.getElementById("milk_type").innerHTML=cafe_db[result]["Milk"];
           document.getElementById("sugar_type").innerHTML=cafe_db[result]["Sugar"];
@@ -37,7 +37,8 @@
       <h1>Animal Crossing: New Leaf - Cafe Order App</h1>
       <div class="form">
         <input name="namebox" type="text" maxlength="140" id="namebox"/>
-        <button onclick="set_coffee()" id="namebutton">Find order</button>
+        <!-- <button onclick="set_coffee()" id="namebutton">Find order</button> -->
+        <button class="button" onclick="set_coffee()" id="namebutton">Find order</button>
       </div>
       <div class="display_box">
         <p id="villager_name">Search for your villager's name using the text box above!</p>
