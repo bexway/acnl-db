@@ -1,3 +1,5 @@
+//Database info from http://www.thonky.com/animal-crossing-new-leaf/the-roost-cafe
+
 cafe_db = [
   {
     "Villager": "Pelly",
