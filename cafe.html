@@ -17,7 +17,6 @@
         name = document.getElementById('namebox').value;
         result = db_search(name, cafe_db)
         if(result>=0){
-          alert("success")
           document.getElementById("villager_name").innerHTML="Here's " +
             cafe_db[result]["Villager"] + "'s coffee order!:";
           document.getElementById("beans_type").innerHTML=cafe_db[result]["Beans"];
@@ -35,6 +34,7 @@
   </head>
   <body>
     <div class="container">
+      <h1>Animal Crossing: New Leaf - Cafe Order App</h1>
       <div class="form">
         <input name="namebox" type="text" maxlength="140" id="namebox"/>
         <button onclick="set_coffee()" id="namebutton">Find order</button>

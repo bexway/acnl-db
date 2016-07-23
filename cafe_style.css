@@ -1,5 +1,22 @@
+/*
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * @vendor:      LatinoType Limitada
+ * @licenseurl: https://www.fontsquirrel.com/license/sofia
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'Sofia';
+	src: url('fonts/Sofia-Regular.otf');
+	src: local('Sofia-Regular'), local('Sofia-Regular'), url('fonts/Sofia-Regular.otf') format('truetype');
+}
+
 body{
 	background-color: #bcf5bc;
+	font-family:cursive;
 }
 
 button{
@@ -10,8 +27,16 @@ input{
 	/*173x21*/
 }
 
+h1{
+	font-family:'Sofia', 'Gill Sans', cursive;
+	font-size: 3rem;
+	text-align: center;
+	color:#179c17;
+}
+
 .form{
-	margin: 0px 25%;
+
+	margin-left:50%-247px
 }
 
 .form_content{
