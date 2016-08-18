@@ -8,6 +8,36 @@ cafe_db = [
     "Sugar": "One spoonful"
   },
   {
+    "Villager": "Phineas",
+    "Beans": "Kilimanjaro",
+    "Milk": "Lots",
+    "Sugar": "Three spoonfuls"
+  },
+  {
+    "Villager": "Kicks",
+    "Beans": "Mocha",
+    "Milk": "None",
+    "Sugar": "One spoonful"
+  },
+  {
+    "Villager": "Pete",
+    "Beans": "Blend",
+    "Milk": "Regular",
+    "Sugar": "Two spoonfuls"
+  },
+  {
+    "Villager": "Digby",
+    "Beans": "Blue Mountain",
+    "Milk": "None",
+    "Sugar": "None"
+  },
+  {
+    "Villager": "Isabelle",
+    "Beans": "Mocha",
+    "Milk": "Lots",
+    "Sugar": "Three spoonfuls"
+  },
+  {
     "Villager": "Phyllis",
     "Beans": "Kilimanjaro",
     "Milk": "None",
