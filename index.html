@@ -3,33 +3,11 @@
   <head>
     <title>ACNL Cafe Guide</title>
     <script src="cafe_db.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="acnl_script.js"></script>
     <link rel="stylesheet" href="cafe_style.css"></link>
     <script>
-      function db_search(item, db) {
-          for(var x=0; x<db.length;x++){
-              if(db[x]["Villager"].toLowerCase() == item.toLowerCase()){
-                return x;
-              }
-            }
-          return -1;
-      };
-      function set_coffee() {
-        name = document.getElementById('namebox').value;
-        result = db_search(name, cafe_db)
-        if(result>=0){
-          document.getElementById("villager_name").innerHTML="Here's " +
-            cafe_db[result]["Villager"] + "'s coffee order!";
-          document.getElementById("beans_type").innerHTML=cafe_db[result]["Beans"];
-          document.getElementById("milk_type").innerHTML=cafe_db[result]["Milk"];
-          document.getElementById("sugar_type").innerHTML=cafe_db[result]["Sugar"];
-        } else{
-          document.getElementById("villager_name").innerHTML="Please enter a villager's "
-          + "name into the text box, then press the button (check spelling!):";
-          document.getElementById("beans_type").innerHTML="";
-          document.getElementById("milk_type").innerHTML="";
-          document.getElementById("sugar_type").innerHTML="";
-        }
-      }
+
     </script>
   </head>
   <body>
@@ -37,8 +15,7 @@
       <h1>Animal Crossing: New Leaf - Cafe Order App</h1>
       <div class="form">
         <input name="namebox" type="text" maxlength="140" id="namebox"/>
-        <!-- <button onclick="set_coffee()" id="namebutton">Find order</button> -->
-        <button class="button" onclick="set_coffee()" id="namebutton">Find order</button>
+        <button class="button" type="submit" onclick="set_coffee()" id="namebutton">Find order</button>
       </div>
       <div class="display_box">
         <p id="villager_name">Search for your villager's name using the text box above!</p>
