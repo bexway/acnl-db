@@ -2,19 +2,19 @@
 <html>
   <head>
     <title>ACNL Cafe Guide</title>
-    <script src="cafe_db.js"></script>
+    <script src="js/cafe_db.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="acnl_script.js"></script>
-    <link rel="stylesheet" href="cafe_style.css"></link>
+    <script type="text/javascript" src="js/acnl_script.js"></script>
+    <link rel="stylesheet" href="css/main.css"></link>
     <script>
 
     </script>
   </head>
-  <body>
+  <body class="page">
     <div class="container">
-      <h1>Animal Crossing: New Leaf - Cafe Order App</h1>
+      <h1 class="header">Animal Crossing: New Leaf - Cafe Order App</h1>
       <div class="form">
-        <input name="namebox" type="text" maxlength="140" id="namebox"/>
+        <input class="input" name="namebox" type="text" maxlength="140" id="namebox"/>
         <button class="button" type="submit" onclick="set_coffee()" id="namebutton">Find order</button>
       </div>
       <div class="display_box">

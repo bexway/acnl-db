@@ -14,13 +14,13 @@
 	src: local('Sofia-Regular'), local('Sofia-Regular'), url('fonts/Sofia-Regular.otf') format('truetype');
 }
 
-body{
+.page{
 	background-color: #bcf5bc;
 	font-family:cursive;
 	color:#ff748c
 }
 
-h1{
+.header{
 	font-family:'Sofia', 'Gill Sans', cursive;
 	font-size: 3rem;
 	text-align: center;
@@ -48,7 +48,7 @@ h1{
 	cursor: pointer;
 }
 
-input{
+.input{
 	width:175px;
 	height:22px;
 }
