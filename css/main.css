@@ -32,8 +32,9 @@
 	font-family: 'Varela Round', sans-serif;
 	font-size: 1.5em;
 	background-color: #fff3f5; /*#e8fce8;*/
-	margin-left:25%;
-	margin-right:25%;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
 	margin-top:10px;
 	border-radius:10px;
 	border: 4px dotted pink;
