@@ -1,10 +1,3 @@
-// document.getElementById('namebox').addEventListener("keyup", function(event) {
-//     event.preventDefault();
-//     if (event.keyCode == 13) {
-//         document.getElementById("#namebutton").click();
-//     }
-// });
-
 $(document).ready(function(){
     $('#namebox').keypress(function(e){
       if(e.keyCode==13)
