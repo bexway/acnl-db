@@ -1,17 +1,26 @@
 .button{
 	/*74x21*/
 	display:inline-block;
-	width:98px;
-	height:28px;
-	border:2px solid pink;
-	border-radius:2px;
-	font-size:.9rem;
+	/*width:98px;*/
+	height:100%;
+	border:0px solid pink;
+	border-radius:5px;
+	font-size: 1.5em;
 	line-height: inherit;
 	text-align: center;
 	background-color: #fff3f5;
 	font-family:cursive;
 	color:#ff748c;
+	-webkit-box-shadow: 0 5px 0 #ff748c;
+            box-shadow: 0 5px 0 #ff748c;
 	cursor: pointer;
+}
+
+.button:active {
+  -webkit-box-shadow: 0 2px 0 #ff748c;
+          box-shadow: 0 2px 0 #ff748c;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 .container{
@@ -35,9 +44,9 @@
 }
 
 .form{
-	height:30px;
-	width:300px;
-	display: inline-block;
+	margin:auto;
+	display: flex;
+	justify-content: center;
 }
 
 .header{
@@ -48,8 +57,11 @@
 }
 
 .input{
-	width:175px;
-	height:22px;
+	/*width:100%;*/
+	margin: 0em .5em;
+	padding: 2.5px 0px;
+	height:100%;
+	font-size: 1.5em;
 }
 
 .page{
